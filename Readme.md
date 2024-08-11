@@ -2,7 +2,7 @@
 
 Welcome to the **Short-Bio-Web** project! This project is a personal bio webpage designed to be both visually appealing and responsive, showcasing your background, skills, and social media links.
 
-![Project Banner](http://127.0.0.1:5500/profile.png) <!-- Replace this URL with your actual image URL -->
+![Project Banner](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6EWxpQh_EeTOtw_B59vllE3QsVgCi3edqtA&s) <!-- Replace this URL with your actual image URL -->
 
 ## Features
 
