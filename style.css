@@ -1,0 +1,316 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    color: rgb(73, 72, 72);
+   
+}
+
+body {
+    background-color: #c5c0c0;
+    color: rgb(73, 72, 72);
+    
+}
+
+header {
+    margin: 45px 176px;
+    font-size: 45px;
+    color: rgb(73, 72, 72);
+}
+
+#home {
+    margin: 32px 166px;
+    background: url(bghome.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: rgb(73, 72, 72);
+}
+
+#home img {
+    width: 36%;
+    height: -25%;
+    margin: 0px 339px;
+}
+
+#design {
+    background: url(images-removebg-preview\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin: 90px 198px;
+    width: 75%;
+}
+
+#design img {
+    text-align: center;
+    margin: 0px 423px;
+    border-radius: 15%;
+}
+
+.autoRotate{
+    animation: autoRotateAnimation;
+    animation-timeline: view();
+}
+@keyframes autoRotateAnimation{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#introduce {
+    margin: 91px 180px;
+    font-size: 26px;
+}
+#introduce h1{
+    text-align: center;
+    align-items: center;
+    font-size: 78px;
+}
+.flex{
+    display: flex;
+}
+.div1{
+    margin: 100px 0px;
+    padding: 0px 21px;
+}
+.div2{
+    margin: 56px 0px;
+}
+#introduce img {
+    width: 480px;
+    margin: 41px 0px;
+}
+
+.autoShow {
+    animation: autoShowAnimation both;
+    animation-timeline: view(146% 17%);
+}
+@keyframes autoShowAnimation{
+    from{
+        opacity: 0;
+        transform: translateY(200px) scale(0.3);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+#hashtags{
+    margin: 90px 198px;
+    font-size: 90px;
+}
+.p1{
+    width: 66%;
+    margin: auto;
+}
+.p2{
+    width: 59%;
+    margin: auto;
+}
+.p3{
+    width: 40%;
+    margin: auto;
+}
+.p4{
+    width: 22%;
+    margin: auto;
+}
+.p5{
+    width: 15%;
+    margin: auto;
+}
+.p6{
+text-align: center;
+}
+
+.p6 img {
+    margin-top: 38px ;
+    height: 75px;
+}
+
+.autoBlur{
+    animation: autoBlurAnimation linear both;
+    animation-timeline: view();
+}
+
+@keyframes autoBlurAnimation{
+    0%{
+        filter: blur(40px);
+    }
+    45% , 55%{
+        filter: blur(0px);
+    }
+    to{
+        filter: blur(40px);
+    }
+}
+
+
+#link{
+    margin-top: 300px;
+    margin-bottom: 100px;
+    text-align: center;
+    align-items: center;
+    font-size: 78px;
+}
+#link h1{
+    margin-bottom: 45px;
+}
+
+.autoGlitch{
+    animation: autoGlitchAnimation;
+    animation-timeline: view();
+}
+
+@keyframes autoGlitchAnimation{
+    from{
+        transform: rotate(-20deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+.git{
+    margin-right: 32px;
+}
+
+#link img{
+    height: 400px;
+}
+
+.autoReverse{
+    animation: autoReverseAnim;
+    animation-timeline: view();
+}
+
+@keyframes autoReverseAnim{
+    from{
+        transform: rotate(20deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
+#Thankyou{
+    margin-top: 100px;
+margin-bottom: 100px;
+text-align: center;
+align-items: center;
+font-size: 78px;
+}
+
+@media (min-width: 420px) and (max-width: 1023px){
+    body,html{
+        width: 100%;
+        
+    }
+    #home{
+        width: 80%;
+    }
+    #design{
+        width: 80%;
+    }
+    #home {
+        margin: 32px 107px;
+        background: url(bghome.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        color: rgb(73, 72, 72);
+    }
+    #design {
+        background: url(images-removebg-preview (2\) . png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin: 90px 89px;
+        width: 75%;
+    }
+    #design img {
+        text-align: center;
+        margin: 0px 258px;
+        border-radius: 15%;
+    }
+
+    #introduce{
+        margin: 0px 21px;
+    }
+}
+@media (max-width:420px){
+    body,html{
+        width: 100%;
+        
+    }
+    #introduce img{
+        width: 300px;
+    }
+    #home{
+        width: 100%;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    #design img {
+        width: 50%;
+        margin: 0px 99px;
+    }
+    header {
+        text-align: center;
+        margin: 45px 13px;
+        font-size: 45px;
+        color: rgb(73, 72, 72);
+    }
+    #home {
+        margin: 32px 45px;
+        background: url(bghome.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        color: rgb(73, 72, 72);
+        width: 82%;
+    }
+    header span{
+        margin: 0px 21px;
+    }
+    #home img {
+        width: 86%;
+        margin: auto;
+    }
+    #design {
+        background: url(images-removebg-preview (2\) . png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        margin: 90px -7px;
+        width: 106%;
+    }
+
+    #introduce {
+        margin: 0px 46px;
+    }
+    .autoShow {
+        animation: autoShowAnimation both;
+        animation-timeline: view(109% -2%);
+    }
+    #hashtags{
+        margin: 0;
+        font-size: 42px;
+    }
+
+    #link img {
+        height: 200px;
+    }
+
+    #Thankyou {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        text-align: center;
+        align-items: center;
+        font-size: 53px;
+    }
+}
