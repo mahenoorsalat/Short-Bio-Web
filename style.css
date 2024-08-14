@@ -282,6 +282,10 @@ header {
 
     }
 
+    #introduce h1{
+        font-size: 39px;
+    }
+
     #introduce img {
         width: 300px;
     }
